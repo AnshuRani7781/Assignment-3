@@ -54,17 +54,47 @@ body{
     height: fit-content;
     align-self: center;
 }
-.card{
+.card{ 
+    
     background-color:#22262C;
     padding: 20px 60px;
     border-radius: 10px;
     text-align: center;
-    color: white;
+    color: white; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card h4{
+    font-size: 1.2rem;
+    color: rgb(243, 236, 238);
+    margin-bottom: 10px; 
+    font-weight: lighter;
+} 
+.card h1{
+    font-weight: bolder;
+} 
+.card ul{
+    line-height:1.75;
 }
 .card ul li{
     text-align: left;
-    color: rgb(188,30,74);
+    color:white;
     
+}
+.card ul li::marker{
+    color: rgb(188,30,74);
+}  
+
+.card button{  
+    margin-top: 20px;
+    border: 1.2px solid rgb(188,30,74);
+    background-color: transparent;      
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
 }
 @media (max-width: 1200px){
     .plan{
