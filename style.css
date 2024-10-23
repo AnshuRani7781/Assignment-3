@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(31,41,55);
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 2vh;
+    background-color: rgb(25,27,29);
+    width: 98vw;
+    min-height: 98vh;
+    display: flex;
+    justify-content: center;
+}
+
+.plan{
+    background-color: rgb(188,30,74);
+    color: white;
+    height: 80px;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+}
+
+.plan>*{
+    margin-top: 10px;
+}
+
+.plan>p{
+    color: rgba(255, 255, 255, 0.8);
+}
