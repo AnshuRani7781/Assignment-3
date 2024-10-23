@@ -17,6 +17,7 @@ body{
     min-height: 98vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .plan{
@@ -28,6 +29,7 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 0 0 10px 10px;
+    align-self: center;
 }
 
 .plan>*{
@@ -38,6 +40,27 @@ body{
     color: rgba(255, 255, 255, 0.8);
 }
 
+.price-table{
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    padding: 10px;
+    gap: 5px;
+    max-width: 1000px;
+    height: fit-content;
+    align-self: center;
+}
+.card{
+    background-color:#22262C;
+    padding: 20px 60px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.card ul li{
+    text-align: left;
+    color: rgb(188,30,74);
+    
+}
 @media (max-width: 1200px){
     .plan{
         width: 50%;
