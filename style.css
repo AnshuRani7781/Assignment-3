@@ -16,8 +16,14 @@ body{
     width: 98vw;
     min-height: 98vh;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+
+}
+
+.plan-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
 }
 
 .plan{
@@ -29,7 +35,6 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 0 0 10px 10px;
-    align-self: center;
 }
 
 .plan>*{
@@ -42,7 +47,7 @@ body{
 
 .price-table{
     display: grid;
-    grid-template-columns: repeat(3, 5fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     gap: 5px;
     max-width: 1000px;
