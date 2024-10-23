@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: 'manovera', sans-serif;
 }
 
 body{
     background-color: rgb(31,41,55);
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    height: 100%;
 }
 
 .content{
     margin-top: 2vh;
     background-color: rgb(25,27,29);
     width: 98vw;
-    min-height: 98vh;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -132,23 +134,24 @@ input:checked + .slider:before {
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     gap: 5px;
-    max-width: 1000px;
+    
     height: fit-content;
     align-self: center;
 }
 .card{ 
     
     background-color:#22262C;
-    padding: 20px 60px;
+    padding: 20px 40px;
     border-radius: 10px;
     text-align: center;
     color: white;
     color: white; 
     display: flex;
     flex-direction: column; 
-    gap: 20px;
+    gap: 10px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    font-size: .8rem;
 }
 .card h4{
     font-size: 1.2rem;
